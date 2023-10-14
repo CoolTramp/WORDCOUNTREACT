@@ -1,0 +1,31 @@
+.main {
+  font-size: 30px;
+  width: 100%;
+}
+
+.main::after {
+  margin-left: 10px;
+  color: rgb(75, 52, 52);
+  font-size: 25px;
+  font-weight: 600;
+  content: " txt, pdf format only";
+  background-color: rgb(171, 211, 211);
+  border-radius: 4px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  opacity: 20%;
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    font-size: 15px;
+  }
+  .main::after {
+    font-size: 15px;
+  }
+}

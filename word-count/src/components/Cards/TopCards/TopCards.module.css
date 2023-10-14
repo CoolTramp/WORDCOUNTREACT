@@ -1,0 +1,42 @@
+.main {
+  margin-left: 20px;
+  display: flex;
+  width: auto;
+}
+
+.btn {
+  margin-bottom: -3px;
+  width: 60px;
+  height: 50px;
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+  border-color: black;
+  border-width: 3px 3px 2px 3px;
+}
+
+.close {
+  border-width: 1px 2px 0px 1px;
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    overflow: scroll;
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+    top: 3px;
+  }
+  .btn {
+    border: 1px solid black;
+    margin-bottom: 1px;
+    border-width: 2px 1px 2px 2px;
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+  }
+  .close {
+    font-size: 30px;
+    border-width: 2px 1px 0px 2px;
+  }
+}

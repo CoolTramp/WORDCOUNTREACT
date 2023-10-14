@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  font-size: 25px;
+  font-family: "Roboto";
+  overflow: scroll;
+  transition: grid-template-rows 1s;
+}
+
+.container {
+  display: flex;
+}
+
+.area {
+  width: auto;
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    border-top: 2px solid;
+  }
+  .container {
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 500px;
+  }
+}

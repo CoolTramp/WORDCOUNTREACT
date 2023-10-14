@@ -1,0 +1,19 @@
+.main {
+  width: auto;
+  height: 250px;
+  overflow-y: scroll;
+  font-size: 25px;
+}
+
+.area {
+  height: 80%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+  }
+}

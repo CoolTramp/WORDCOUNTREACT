@@ -1,0 +1,8 @@
+.main {
+  background-color: rgb(246, 102, 76);
+  background-image: url("../../../../assets//img/icons/recycle-bin.png");
+}
+
+.main:hover {
+  background-color: red;
+}

@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 568px) {
+  .main {
+    height: 65px;
+  }
+}

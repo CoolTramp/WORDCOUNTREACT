@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}

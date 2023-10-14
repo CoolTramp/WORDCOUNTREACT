@@ -1,0 +1,14 @@
+.another {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.another p {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.23);
+}
+
+.center {
+  margin: 0 auto;
+}
